@@ -1,0 +1,30 @@
+import React from 'react'
+import './Add.css'
+import { IoIosAddCircleOutline } from "react-icons/io"
+
+function Add() {
+  return (
+
+    <>
+    
+    
+    <section className='newPost'>
+        <div className='container boxItems'>
+          <div className='img '></div>
+          <form>
+            <div className='inputfile flexCenter'>
+              <label htmlFor='inputfile'>
+                <IoIosAddCircleOutline />
+              </label>
+              <input type='file' id='inputfile' style={{ display: "none" }}  />
+            </div>
+            <input type='text' placeholder='Title'  />
+            <textarea name='' id='' cols='30' rows='10' ></textarea>
+            <button className='button'>Create Post</button>
+          </form>
+        </div>
+      </section></>
+  )
+}
+
+export default Add
