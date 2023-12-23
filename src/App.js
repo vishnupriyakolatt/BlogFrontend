@@ -1,7 +1,13 @@
 import { Routes,Route } from "react-router-dom";
 import React from "react";
-import NavBar from "./components/Components/Header/NavBar";
-import Add from "./components/Components/AddBlog/Add";
+
+import Home from "./pages/Home";
+import NavBar from "./components/Header/NavBar";
+import SinglePage from "./pages/SinglePage";
+import Add from "./components/AddBlog/Add";
+import Update from "./components/Update/Update";
+import Register from "./pages/Register";
+import Login from "./pages/Login";
 
 
 
@@ -10,13 +16,22 @@ function App() {
   return (
  <React.Fragment>
   <header>
-  {/* <Headers/> */}
+<NavBar/>
   </header>
   <main>
     <Routes>
-      <Route path="/" element={<NavBar/>}/>
-      <Route path="/b" element={<Add/>}/>
-    
+      <Route path="/" element={<Home/>}/>
+
+
+      <Route path="/signup" element={<Register/>}/>
+      <Route path="/login" element={<Login/>}/>
+
+
+
+      <Route path="/details" element={<SinglePage/>}/>
+      <Route path="/create" element={<Add/>}/>
+      <Route path="/update" element={<Update/>}/>
+      
     </Routes>
 
   </main>

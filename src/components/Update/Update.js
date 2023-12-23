@@ -6,6 +6,7 @@ function Update() {
   return (
     <>
       <section className='newPost'>
+        
         <div className='container boxItems'>
           <div className='img'></div>
           <form>

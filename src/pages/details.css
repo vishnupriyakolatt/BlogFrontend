@@ -1,14 +1,30 @@
 .singlePage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+ 
     padding: 50px 0;
     background: #fff;
+  }
+  .singlePage .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .singlePage .left {
+    margin-right: 20px;
+  }
+  
+  .singlePage img {
+    max-width: 100%;
+    height: auto;
   }
   .singlePage .right {
     margin-top: 50px;
   }
-  .singlePage img {
-    width: 100%;
-    height: 100%;
-  }
+
   .singlePage h1 {
     font-size: 30px;
     font-weight: 500;

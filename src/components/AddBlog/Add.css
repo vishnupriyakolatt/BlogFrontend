@@ -1,8 +1,12 @@
 .newPost {
-    margin-top: 50px;
+    margin-top:160px;
   }
   .newPost .container {
     max-width: 50%;
+  }
+  .center {
+    text-align: center;
+    padding-bottom: 2px;
   }
   .newPost i {
     font-size: 25px;

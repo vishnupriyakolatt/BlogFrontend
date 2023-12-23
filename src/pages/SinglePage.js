@@ -8,9 +8,9 @@ function SinglePage() {
   return (
     <>
       <section className='singlePage'>
-        <div className='container'>
+        <div className='container '>
           <div className='left'>
-            <img src='' alt='' />
+            <img src='https://www.fabhotels.com/blog/wp-content/uploads/2019/08/Temple-in-India_600.jpg' alt=''/>
           </div>
           <div className='right'>
             <div className='buttons'>
@@ -26,13 +26,13 @@ function SinglePage() {
             </div>
 
             <input type='text' className='updateInput' />  
-            <h1>hiii</h1>
+            
             <textarea cols='30' rows='10' className='updateInput'></textarea>
-            <p>descript</p>
+        
 
-            <p>
+            {/* <p>
               Author: <Link to='/user-profile'>user name</Link>
-            </p>
+            </p> */}
           </div>
         </div>
       </section>

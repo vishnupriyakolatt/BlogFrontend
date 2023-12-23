@@ -10,7 +10,7 @@ function Blog() {
         <div className='container grid3'>
        
             <div className='box boxItems' >
-              <div className='img'><img src='https://akm-img-a-in.tosshub.com/indiatoday/images/story/202312/15-budget-friendly-places-to-celebrate-new-years-in-india-2024-113539353-1x1.jpg?VersionId=BKRiGzZ8r4W3wqzdgbPbZC682ao0vJ.e'/></div>
+              <div className='img'><img src='https://images.pexels.com/photos/3243027/pexels-photo-3243027.jpeg?auto=compress&cs=tinysrgb&w=600'/></div>
               <div className='details'>
                 <div className='tag'>
                 </div>

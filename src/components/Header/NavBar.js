@@ -2,12 +2,7 @@ import React, {useState } from 'react'
 import User from './User'
 
 import './NavBar.css'
-import Blog from '../Blog/Blog'
-
-
-
-
-
+import { NavLink } from 'react-router-dom'
 
 function NavBar() {
 
@@ -20,9 +15,9 @@ function NavBar() {
             </div>
             <nav>
                 <ul>
-                    <li>Home</li>
-                    <li>Blogs</li>
-                    <li>About</li>
+                <li><NavLink to='/'>Home</NavLink></li>
+                <li><NavLink to='/'>Blog</NavLink></li>
+                <li><NavLink to='/'>About</NavLink></li>
                 </ul>
             </nav>
             <div className='account flexCenter'>
@@ -31,13 +26,7 @@ function NavBar() {
         </div>
     </header>
     
-    <main>
-    <div className="cover-photo">
-          <img src='https://marketplace.canva.com/EAFVMyc6M1Y/2/0/1600w/canva-white-collage-travel-blog-facebook-post-BsGxDTqBABE.jpg' alt='Cover' />
-        </div>
-        <Blog/>
-  
-    </main>
+    
 
     
     </>

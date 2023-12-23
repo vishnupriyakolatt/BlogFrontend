@@ -44,10 +44,6 @@ const User = () => {
                 </button>
               </Link>
               <button className="box">
-                <IoSettingsOutline className="icon" />
-                <h4>My Account</h4>
-              </button>
-              <button className="box">
                 <BsBagCheck className="icon" />
                 <h4>My Blogs</h4>
               </button>
